@@ -86,7 +86,7 @@ public class OrderController {
                                                     }       
                                     }
                             
-                         @RequestMapping(value = "/")
+        @RequestMapping(value = "/")
 	public String home(Model model) throws Exception{
 		model.addAttribute("rabbitURI", client.getRabbitURI());
 		
