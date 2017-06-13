@@ -1,6 +1,6 @@
 ---
 applications:
-- name: pcfdemo-fd
+- name: pcfdemo
   memory: 512M 
   instances: 1
   host: pcfdemo-yourname
