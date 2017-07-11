@@ -22,7 +22,7 @@ run:
   path: pcfdemo/ci/tasks/prepare-prod.sh
   args: [
     --input-dir, final-release,
-    --output-dir, prepare-integration,
+    --output-dir, prepare-prod,
     --version-file, version/number,
     --input-manifest, pcfdemo/manifest.yml,
     --artifactId, pcf-demo,
