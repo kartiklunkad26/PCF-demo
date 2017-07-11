@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>PivotalOne Demo</title>
+<title>PivotalOne Demo for Voya</title>
 <meta http-equiv="Cache-Control"
 	content="no-store, no-cache, must-revalidate, max-age=0">
 <link href="resources/css/retail.css" rel="stylesheet">
@@ -131,7 +131,7 @@
 	
     <div class="container">
         <div class="footer">
-          <div class="footer-text">©&nbsp;2014 Pivotal Software, Inc.  </div>
+          <div class="footer-text">Â©&nbsp;2014 Pivotal Software, Inc.  </div>
           <div class="footer-poweredby"><img src="resources/img/PoweredByPivotal.png" alt="Powered By Pivotal "></div>
 	    </div>
 	</div>  		
