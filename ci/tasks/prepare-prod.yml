@@ -19,7 +19,7 @@ outputs:
   - name: prepare-prod
 
 run:
-  path: chmod +x ci/tasks/prepare-prod.sh && pcfdemo/ci/tasks/prepare-prod.sh
+  path: pcfdemo/ci/tasks/prepare-prod.sh
   args: [
     --input-dir, final-release,
     --output-dir, prepare-prod,
