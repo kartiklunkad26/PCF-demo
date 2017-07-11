@@ -99,9 +99,7 @@ jobs:
     plan:
       - get: pcfdemo
         passed: [ unit-test ]
-        trigger: true
       - get: candidate-release
-        trigger: true
         passed: [ build-artifact ]
       - get: version
         passed: [ build-artifact ]
