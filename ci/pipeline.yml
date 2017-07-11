@@ -148,14 +148,6 @@ jobs:
         params: { file: prepare-final/pcf-demo-*.war }
       - put: version
         params: { file: version/number }
-      - task: prepare-prod
-        file: pcfdemo/ci/tasks/prepare-prod.yml
-        params:
-          CF_MANIFEST_HOST: {{cf-manifest-prod}}
-      - put: cf-prod
-        params:
-          manifest: prepare-prod/manifest.yml
-
 
   - name: major
     serial_groups: [ version ]
